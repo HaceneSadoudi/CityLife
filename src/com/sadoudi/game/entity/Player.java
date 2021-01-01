@@ -17,6 +17,39 @@ public class Player {
     }
 
     public void ajouterPoints(int barre, int points) {
-        
+        barres.get(barre).setValue(barres.get(barre).getValue() + points);
     }
+    public void enleverPoints(int barre, int points) {
+        barres.get(barre).setValue(barres.get(barre).getValue() - points);
+
+    }
+
+    public void seDeplacer(Batiment batiment) {
+
+    }
+
+    public void manger() {
+
+    }
+
+    public void boire() {
+
+    }
+
+    public void seSoigner() {
+
+    }
+
+    public void tomberMalade() {
+
+    }
+
+    public void obtenirDiplome() {
+
+    }
+    public void mourire () {
+
+    }
+
+
 }
